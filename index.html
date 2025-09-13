@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./Images/logo.PNG">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- main css -->
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Personal Website</title>
+
+</head>
+<body>
+    
+    <!-- HEADER Open-->
+     <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact-form">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- HOME SECTION -->
+ <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Hari Nivasaa V</h1>
+
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+
+        <p>I am a proactive and enthusiastic Electronics and Communication 
+            Engineering student, passionate about applying my knowledge in electronics, PCB , 
+            IOT and software development to real-world challenges. My commitment to learning and 
+            collaboration makes me a valuable contributor to projects, driving innovation and 
+            efficiency within teams.</p>
+            <!-- Social parts -->
+        <div class="social-media">
+    <a href="https://github.com/Vasaa8595" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/hari-nivasaa-v/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/_.vasxz._/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+</div>
+<!-- Download resume -->
+        <a href="./Core Resume.pdf" target="_blank" rel="noopener no-referrer" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="./Images/vasaa.jpg" alt="profileimg">
+    </div>
+ </section>
+    
+
+ <!-- about -->
+  <section class="about" id="about">
+    <div class="about-img">
+        <img src="./Images/vasaa.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>PCB Designer</h3>
+        <p>I am a PCB designer proficient in Altium Designer, 
+            with hands-on experience creating multi-layer boards for embedded and IoT 
+            applications. I’ve successfully completed several projects involving sensor integration, power management, and high-speed signal routing. My designs emphasize reliability, manufacturability, and compact layouts. I also ensure proper schematic capture, 
+            component placement, and DFM checks for production-ready PCBs.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+
+    <!-- Skills -->
+
+<section class="services" id="services">
+    <h2 class="heading">My <span> Skills</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">  
+           <i class="fa-solid fa-microchip"></i>
+            <h3>PCB Design </h3>
+            <p>PCB Design is the process of creating a physical layout for electronic circuits. 
+                It involves placing components and connecting them with copper traces on a board using 
+                software tools like Altium ,Ki-Cad, Allegro, Eagle. It ensures the circuit works efficiently 
+                and fits into compact electronic devices.A well-designed PCB ensures efficient signal flow, compact size, reduced noise,
+                 and reliable performance in electronic devices.</p>
+            <a href="https://resources.pcb.cadence.com/blog/2023-an-introduction-to-printed-circuit-boards" target="_blank" rel="noopener no-referrer" class="btn">Read More</a>
+            
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development </h3>
+            <p>Web Development is the process of building and maintaining websites or web applications.
+                 It includes designing user interfaces, writing front-end code using HTML, CSS, JavaScript,
+                  and managing the back-end using technologies like Reactjs, Node.js, Java, or databases. 
+                Web development is the process of building responsive and user-friendly websites or web applications 
+                using frontend and backend technologies.</p>
+            <a href="https://www.geeksforgeeks.org/web-tech/web-development/" target="_blank" rel="noopener no-referrer" class="btn">Read More</a>
+        </div>  
+        
+        <div class="services-box">
+            <i class=" fa-solid fa-palette"></i>
+            <h3>Embedded System </h3>
+            <p>Embedded Systems involve designing and programming hardware-software integrated 
+                devices that perform specific tasks. These systems use microcontrollers like 
+                Arduino, STM32, or Raspberry Pi to interact with sensors and actuators.
+                 I worked on real-time applications such as IoT-based kits and automation projects, 
+                 focusing on low-level programming, efficient resource use, and hardware interfacing.</p>
+            <a href="https://www.techtarget.com/iotagenda/definition/embedded-system" target="_blank" rel="noopener no-referrer" class="btn">Read More</a>
+        </div>
+ 
+    </div>
+</section>
+
+<!-- portfolio -->
+
+<section class="po rtfolio" id="portfolio">
+    <h2 class="heading">Latest  <span> Projects</span></h2>
+    
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="./Images/iot.png" alt="">
+            <div class="portfolio-layer">
+                <h4 >IOT - Trainer Kit</h4>
+                <p>The IoT Trainer Kit is a compact, custom-designed 4-layer PCB that integrates multiple 
+                    sensors and popular microcontrollers like Arduino Nano, ESP32, 
+                    and Raspberry Pi. It is built to simplify IoT learning and experimentation 
+                    through modular interfaces and real-time data interaction. The kit supports 
+                    hands-on training in sensor integration, wireless communication, 
+                    and embedded systems. Ideal for students, educators, and developers, it promotes 
+                    innovation and rapid prototyping in IoT applications.</p>
+                <a href="./Components/iot.html" target="_blank" class="project-link-icon">
+                <i class="fa-solid fa-up-right-from-square"></i> </a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./Images/8bitt.png" alt="">
+            <div class="portfolio-layer">
+                <h4 >8 - Bit Computer </h4>
+                <p>The 8-bit computer, inspired by Ben Eater’s design, is a modular, breadboard-based system that 
+                    demonstrates the fundamentals of computer architecture. It covers key concepts 
+                    like binary logic, clock cycles, memory addressing, and instruction execution. 
+                    Built from basic logic ICs, the project offers a hands-on approach to understanding 
+                    how computers work at the hardware level. 
+                    It's an excellent educational tool for learning low-level computing and digital design.</p>
+                <a href="./Components/8bit.html" target="_blank" class="project-link-icon">
+                <i class="fa-solid fa-up-right-from-square"></i> </a> 
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./Images/maze.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4 >Maze Solver</h4>
+                <p>The Maze Solver project uses an STM32 microcontroller to autonomously navigate through a 
+                    maze using sensor inputs and pathfinding algorithms. It features real-time decision-making, 
+                    obstacle detection, and memory-based path optimization. The system demonstrates embedded control, 
+                    efficient algorithm implementation, and autonomous robotics. It's ideal for showcasing practical 
+                    applications of embedded systems in automation and AI-driven navigation.</p>
+                <a href="./Components/maze.html" target="_blank" class="project-link-icon">
+                <i class="fa-solid fa-up-right-from-square"></i> </a>
+            </div>
+        </div>
+   
+        <div class="portfolio-box">
+            <img src="./Images/Rp2040.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4 >RP2040-Based GSM Communication System</h4>
+                <p>This project integrates the RP2040 microcontroller with a GSM module (SIM800/SIM900) to enable 
+                    SMS-based communication for remote monitoring and control. It utilizes UART communication and AT 
+                    commands to send and receive messages over cellular networks. The system is ideal for IoT applications 
+                    requiring low-power, wireless connectivity in areas without Wi-Fi. 
+                    It showcases embedded programming, serial communication, and real-time data handling.</p>
+                <a href="./Components/Rp2040.html" target="_blank" class="project-link-icon">
+                <i class="fa-solid fa-up-right-from-square"></i> </a> 
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./Images/vsd.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4 >Customized VSD squadron FPGA</h4>
+                <p>This project involves customizing the open-source VSDsquadron FPGA board to implement 
+                    and test user-defined digital logic designs. It showcases hands-on experience in Verilog coding, 
+                    IP core development, and real-time simulation of digital circuits. The board was tailored to 
+                    specific use cases, enhancing functionality and performance. This project demonstrates deep 
+                    understanding of FPGA architecture, 
+                    hardware description languages, and low-level system design.</p>
+                <a href="./Components/vsd.html" target="_blank" class="project-link-icon">
+                <i class="fa-solid fa-up-right-from-square"></i></a>
+
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./Images/ec.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4 >E-Commerce - Website</h4>
+                <p>This project is a fully functional e-commerce platform developed using the MERN 
+                    stack (MongoDB, Express.js, React.js, Node.js). It features real-time product updates, 
+                    secure user authentication, shopping cart integration, and a responsive design for seamless 
+                    experience across devices. The platform supports payment gateway integration and admin control 
+                    for product and order management. It demonstrates full-stack web development skills and 
+                    end-to-end application deployment.</p>
+                <a href="./Components/Ecom.html" target="_blank" class="project-link-icon">
+                <i class="fa-solid fa-up-right-from-square"></i> </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Contact  -->
+<form id="contact-form" id="contact-form">
+  <div class="input-box">
+    <h1>Contact Me</h1>
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="email" name="email" placeholder="Email Address" required />
+  </div>
+
+  <div class="input-box">
+    <input type="number" name="phone" placeholder="Mobile Number" required />
+    <input type="text" name="subject" placeholder="Email Subject" required />
+  </div>
+
+  <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+  <input type="submit" value="Send Message" class="btn" />
+</form>
+
+
+<!-- Add script to send form data to backend -->
+<script>
+  const form = document.getElementById('contact-form');
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const formData = {
+      name: form.name.value,
+      email: form.email.value,
+      phone: form.phone.value,
+      subject: form.subject.value,
+      message: form.message.value,
+    };
+
+    try {
+      const response = await fetch('https://backend-portfolio-plyu.onrender.com/send-message', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        alert('✅ Message Sent Successfully!');
+        form.reset();
+      } else {
+        alert('❌ Error: ' + result.error);
+      }
+    } catch (error) {
+      alert('❌ Network Error: ' + error.message);
+    }
+  });
+</script>
+
+
+
+ <!-- footer -->
+  <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @vasaa | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+
+
+<!-- Scrool revel -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!-- Typed.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+    
+    <!-- Typed.js Initialization -->
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function () {
+            const typed = new Typed('.multiple-text', {
+                strings: ['PCB Designer','Frontend Developer', 'Web Designer','UI/UX' ],
+                typeSpeed: 110,
+                backSpeed: 80,
+                backDelay: 1000,
+                loop: true,
+            });
+        });
+    </script>
+
+  <!-- main js -->
+<script src="main.js"></script>
+</body>
+</html>

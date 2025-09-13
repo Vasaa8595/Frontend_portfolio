@@ -1,0 +1,80 @@
+.project-section {
+  /* max-width: 1000px;  */
+  margin: 10px auto;
+  padding: 25px;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+.section-title1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ed0a0a;
+}
+
+.project-points {
+  list-style-type: disc;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.image-card {
+  flex: 1 1 400px;
+  max-width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-label {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  font-style: italic;
+  text-align: center;
+}
+
+.software-used {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.software-used span {
+  color: #0073e6;
+  font-size: 30px;
+  font-weight: 700;
+}
